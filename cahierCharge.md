@@ -64,3 +64,7 @@ Les relations:
 *   Un utilisateur peut passer plusieurs commandes, mais une commande ne peut être passée que par un seul utilisateur. Relation 1:N entre la table "Utilisateurs" et la table "Commandes".
 *   Une commande peut contenir plusieurs composants, et un composant peut appartenir à plusieurs commandes. Relation M:M entre la table "Commandes" et la table "Composants".
 *  Un composant peu avoir un seul type (proc, carte graphique, ram etc), et un type peu appartenir à plusieurs composants. Relation 1:M  entre la table "types" et "composants"
+
+
+
+MVP : connexion, enregistrement/modif/supp de sa configuration
